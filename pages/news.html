@@ -47,12 +47,14 @@
 	<div class="container">
 		<!-- search block-->
 		<div id="search-block">
-			<div class="row" id="search-nav">
-				<div class="col-md-1"><a href="www.baidu.com">综合</a></div>
-				<div class="col-md-1"><a href="www.baidu.com">平台</a></div>
-				<div class="col-md-1"><a href="www.baidu.com">投资</a></div>
-				<div class="col-md-1"><a href="www.baidu.com">资讯</a></div>
-			</div>
+            <div class="search-nav">
+               <ul class="search-nav-list">
+                   <li><a>综合</a></li>
+                   <li><a>平台</a></li>
+                   <li><a>投资</a></li>
+                   <li><a>资讯</a></li>
+                </ul>
+            </div>
 			<div id="search-form">
 				<form class="form-horizontal" role="form">
 					<div class="form-group">
@@ -159,34 +161,51 @@
 						<!-- Tab panes -->
 						<div class="tab-content">
 							<div class="tab-pane active" id="news-hot-day">
-								<ol>
-									<li><a>你好</a></li>
-									<li><a>niha</a></li>
-									<li><a>你好</a></li>
-									<li><a>niha</a></li>
-									<li><a>你好</a></li>
-								</ol>
+								<ul class="news-list">
+									<li><em class="hot-mark pull-left">1</em><a href="#">你好</a></li>
+									<li><em class="hot-mark pull-left">2</em><a>niha</a></li>
+									<li><em class="hot-mark pull-left">3</em><a>你好</a></li>
+									<li><em class="gray-mark pull-left">4</em><a>niha</a></li>
+									<li><em class="gray-mark pull-left">5</em><a>你好</a></li>
+                                    <li><em class="gray-mark pull-left">6</em><a>你好</a></li>
+                                    <li><em class="gray-mark pull-left">7</em><a>niha</a></li>
+                                    <li><em class="gray-mark pull-left">8</em><a>你好</a></li>
+								</ul>
 								<a class="pull-right" href="#">更多</a>
 							</div>
 							<div class="tab-pane" id="news-hot-week">
-								<ol>
-									<li><a>你好</a></li>
-									<li><a>niha</a></li>
-									<li><a>你好</a></li>
-									<li><a>niha</a></li>
-									<li><a>你好</a></li>
-								</ol>
+                                <ul class="news-list">
+                                    <li><em class="hot-mark pull-left">1</em><a href="#">你好</a></li>
+                                    <li><em class="hot-mark pull-left">2</em><a>niha</a></li>
+                                    <li><em class="hot-mark pull-left">3</em><a>你好</a></li>
+                                    <li><em class="gray-mark pull-left">4</em><a>niha</a></li>
+                                    <li><em class="gray-mark pull-left">5</em><a>你好</a></li>
+                                    <li><em class="gray-mark pull-left">6</em><a>你好</a></li>
+                                    <li><em class="gray-mark pull-left">7</em><a>niha</a></li>
+                                    <li><em class="gray-mark pull-left">8</em><a>你好</a></li>
+                                </ul>
 								<a class="pull-right" href="#">更多</a>
 							</div>
 						</div>
 					</div>
 					<div class="right-block" id="platform-rec">
-						<h4>相关平台</h4>
-                        <img src="../images/logo.png">
-						<div> ddd</div>
+						<h4>相关平台<span class="pull-right more-link"><a>更多</a></span></h4>
+                        <img class="platform-img-sm pull-left" src="../images/renren.jpg">
+						<div class="platform-item">
+                            <a href="#">人人贷</a>
+                            <p class="text-gray platform-des">P2P网贷理财专业平台，散标投资，50元起投，90天即可债权转让；享受方便快捷的个性化理财和贷款服务！</p>
+                        </div>
 					</div>
 					<div class="right-block" id="invest-rec">
-						<h4>相关投资</h4>
+						<h4>相关投资<span class="pull-right more-link"><a>更多</a></span></h4>
+                        <ul>
+                            <li><a href="#">人人网运营周转</a><span class="invest-rate">年利率12%</span><span class="invest-plat">人人贷</span></li>
+                            <li><a href="#">人人网运营周转</a><span class="invest-rate">年利率12%</span><span class="invest-plat">人人贷</span></li>
+                            <li><a href="#">人人网运营周转</a><span class="invest-rate">年利率12%</span><span class="invest-plat">人人贷</span></li>
+                            <li><a href="#">人人网运营周转</a><span class="invest-rate">年利率12%</span><span class="invest-plat">人人贷</span></li>
+                            <li><a href="#">人人网运营周转</a><span class="invest-rate">年利率12%</span><span class="invest-plat">人人贷</span></li>
+                        </ul>
+
 
 		            </div>
 				</div>

@@ -6,6 +6,17 @@
     border-left: solid 2px #033c73;
 }
 
+.search-nav ul{
+     list-style: none;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.search-nav ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+
 #news-info{
     border-bottom: solid 1px #317eac;
 }
@@ -50,10 +61,6 @@
     text-align: center;
 }
 
-#main-right ol{
-    padding-left: 20px;
-    margin-bottom: 0px;
-}
 
 .right-block{
     padding: 5px 0px;
@@ -64,6 +71,15 @@
     padding: 10px;
     margin-bottom: 5px;
 }
+#news-hot-day ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+#news-hot-week ul{
+    padding-left: 0px;
+    list-style: none;
+}
 
 #image-block img{
     max-width: 100%;
@@ -72,6 +88,10 @@
 
 footer {
     background-color: #e6e6e6;
+}
+.hot-mark{
+    background:#f57a00;
+    color: #fff;
 }
 
 footer ul .footer-links a{
@@ -91,4 +111,58 @@ footer ul li{
 }
 footer ul{
     list-style: none;
+}
+
+.platform-img-sm{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.platform-item{
+    height: 100px;
+}
+
+.more-link{
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.text-gray{
+    color: #888;
+
+}
+.platform-des{
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+#invest-rec ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.invest-plat{
+    margin-left: 8px;
+    font-size: 12px;
+    color: #888888;
+}
+
+.invest-rate{
+    margin-left: 8px;
+    font-size: 12px;
+    color: #f57a00;
+}
+.news-list em{
+    display: block;
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+   margin-right: 10px;
+    font-style: normal;
+}
+.gray-mark{
+    background: #e5e5e5;
+    color: #666;
 }
