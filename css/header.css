@@ -199,8 +199,8 @@ footer ul{
 
 .filter-box{
     border-bottom: 1px solid #369FD6;
-    height: 40px;
-    line-height: 40px;
+    height: 50px;
+    line-height: 50px;
 }
 
 #invest-filter-box ul li{
@@ -225,8 +225,37 @@ footer ul{
     border: 1px solid #e3e3e3;
 }
 
-#invest-block table{
-    margin-bottom: 0px;
+#invest-block table td{
+    color:#636363 ;
 }
 
+#invest-block table th{
+    color:#7e8c8d ;
+}
 
+.invest-table-title{
+    text-align: center;
+}
+
+#invest-filter{
+    color:#7e8c8d ;
+}
+
+#invest-block table{
+    margin: 0px;
+}
+
+.invest-filter-item{
+    margin: 7px 0px;
+}
+
+#invest-filter a.invest-filter-active{
+    background: #369FD6;
+    color: #ffffff;
+}
+
+#invest-filter a{
+    padding: 3px 5px;
+    margin-left: 8px;
+    color:#7e8c8d ;
+}
