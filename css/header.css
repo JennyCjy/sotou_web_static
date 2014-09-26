@@ -8,13 +8,22 @@
 
 .search-nav ul{
      list-style: none;
-    padding-left: 20px;
+    padding-left: 15px;
     margin-bottom: 5px;
 }
 
 .search-nav ul li{
     display: inline-block;
-    margin-left: 5px;
+}
+
+.search-nav-list li a{
+    font-size: 16px;
+    color: #2d6ca2;
+    padding: 0px 15px;
+}
+
+#search-block .search-active a{
+    color: #f57a00;! important
 }
 
 #news-info{
@@ -165,4 +174,88 @@ footer ul{
 .gray-mark{
     background: #e5e5e5;
     color: #666;
+}
+
+.key_mark{
+    color: red;
+}
+
+#news-rec ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+#invest-filter-box ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+
+}
+
+#invest-filter-box{
+    border: 1px solid #e3e3e3;
+    background-color: #f5f5f5;
+}
+
+.filter-box{
+    border-bottom: 1px solid #369FD6;
+    height: 50px;
+    line-height: 50px;
+}
+
+#invest-filter-box ul li{
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+}
+
+#invest-filter-box ul li a{
+    color: #333333;
+}
+
+#invest-filter-box ul li.filter-active{
+    background-color: #369FD6;
+}
+
+#invest-filter-box ul li.filter-active a{
+    color: #ffffff;
+}
+
+#invest-block{
+    border: 1px solid #e3e3e3;
+}
+
+#invest-block table td{
+    color:#636363 ;
+}
+
+#invest-block table th{
+    color:#7e8c8d ;
+}
+
+.invest-table-title{
+    text-align: center;
+}
+
+#invest-filter{
+    color:#7e8c8d ;
+}
+
+#invest-block table{
+    margin: 0px;
+}
+
+.invest-filter-item{
+    margin: 7px 0px;
+}
+
+#invest-filter a.invest-filter-active{
+    background: #369FD6;
+    color: #ffffff;
+}
+
+#invest-filter a{
+    padding: 3px 5px;
+    margin-left: 8px;
+    color:#7e8c8d ;
 }
