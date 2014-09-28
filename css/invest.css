@@ -1,0 +1,18 @@
+#invest-item-detail{
+    border:1px solid #e1e1e8;
+    background-color: #ffffff;
+    margin: 20px 0px 20px 0px;
+    padding:0px 10px;
+}
+
+#invest-title p span.loan-type{
+    color: #ffffff;
+    background-color: #ED721B;
+    padding: 3px;
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
+#invest-title a{
+    margin: 9px 15px;
+}
