@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>搜投网</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/invest.css">
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<hearder>
+    <div class="container" id="logo"><img src="../images/logo.png"></div>
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">首页</a></li>
+                    <li class="active"><a href="#">理财</a></li>
+                    <li><a href="#">贷款</a></li>
+                    <li><a href="#">平台</a></li>
+                    <li><a href="#">资讯</a></li>
+                    <li><a href="#">话题</a></li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="关键词">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</hearder>
+<div id="content">
+    <div class="container">
+        <div id="invest-item-detail">
+            <div id="invest-title">
+                <h3 class="pull-left"><span class="loan-title"><strong>经营周转</strong></span><span class="loan-type">信</span></h3>
+                 <a class="pull-right" href="#">查看原始信息</a>
+            </div>
+            <div id="invest-info">
+                <div class="row">
+                    <div class="col-md-8" id="invest-left">
+                        <div class="row" id="invest-row-1">
+                            <div class="col-md-4">
+                                <p class="text-gray-dark">标的总额(元)</p>
+                                <p><em>￥123,000</em></p>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="text-gray-dark">年利率</p>
+                                <p><em>12.00%</em></p>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="text-gray-dark">贷款周期（月）</p>
+                                <p><em>18</em></p>
+                            </div>
+                        </div>
+                        <div class="row" id="invest-row-2">
+                            <div class="col-md-4">
+                                <p><span class="text-gray-dark">保障方式</span><span>本息保障</span></p>
+                                <p><span class="text-gray-dark">还款方式</span><span>按月还款</span></p>
+                            </div>
+                            <div class="col-md-4">
+                                <p><span class="text-gray-dark">奖励</span><span>0.00%</span></p>
+                                <p><span class="text-gray-dark">标的类型</span><span>信用标</span></p>
+                            </div>
+                        </div>
+                        <div  class="row" id="invest-row-3">
+	                        <div class="col-md-8">
+		                        <p class="text-gray-dark pull-left">投标进度</p>
+		                        <div class="progress pull-left" id="invest-progress">
+			                        <div class="progress-bar" id="invest-progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+				                        60%
+			                        </div>
+		                        </div>
+	                        </div>
+	                        <div class="col-md-4">剩余3天以上</div>
+                        </div>
+	                    <div><span class="text-muted">来自</span><span><a href="www.renrendai.com">人人贷</a></span></div>
+                    </div>
+                    <div class="col-md-4" id="invest-right">
+                        <div id="calculate-box">
+                            <p class="text-gray-dark text-style">剩余金额(<span></span>元)</p>
+                            <p><em>￥100,000</em></p>
+	                        <div class="input-group">
+		                        <div class="input-addon-img"><img src="../images/Calculator-16.png"></div>
+		                        <input type="text" class="form-control" id="moneyinput" placeholder="输入投资金额">
+	                        </div>
+
+	                        <div class="pull-left" id="calculate-box-left">
+		                        <p class="text-gray-dark">利率收益(元)</p>
+		                        <p class="text-gray-dark">奖励(元)</p>
+		                        <p class="text-gray-dark">总收益(元)</p>
+	                        </div>
+	                        <div class="pull-right" id="calculate-box-right">
+		                        <p>￥0</p>
+		                        <p>￥0</p>
+		                        <p>￥0</p>
+	                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="loan-des">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="active"><a href="#loan-info" role="tab" data-toggle="tab">借款详情</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="loan-info">
+                    <div  class="loan-box" id="loan-description">
+	                    <h4>借款描述</h4>
+                    <p>刚装修完，而且宝宝出生。为减少现金压力，想用分期方式添置一部份电器。</p>
+                    </div>
+	                <div  class="loan-box" id="loan-analysis">
+						<h4>投标情况</h4>
+		                <div class="row">
+			                <div class="col-md-4"><span class="text-gray-dark">投标人数</span><span class="loan-num">200</span></div>
+			                <div class="col-md-4"><span class="text-gray-dark">最大投标金额(元)</span><span class="loan-num">4,000</span></div>
+			                <div class="col-md-4"><span class="text-gray-dark">平均投标金额(元)</span><span class="loan-num">2,000</span></div>
+		                </div>
+	                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <ul class="footer-nav">
+            <li class="footer-links">
+                <a href="#">用户手册</a>
+                <a href="#">关于我们</a>
+                <a href="#">友情链接</a>
+            </li>
+            <li>
+                <p>copyright &copy; 搜投网</p>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

@@ -2,17 +2,157 @@
     border:1px solid #e1e1e8;
     background-color: #ffffff;
     margin: 20px 0px 20px 0px;
-    padding:0px 10px;
+
 }
 
-#invest-title p span.loan-type{
+#invest-title h3 span.loan-title{
+    margin-left: 10px;
+}
+#invest-title h3 span.loan-type{
     color: #ffffff;
     background-color: #ED721B;
     padding: 3px;
     font-size: 14px;
     margin: 0px 10px;
+    position: relative;
+    top: -3px;
+}
+#invest-title h3{
+    color: #222;
+}
+#invest-title a{
+  padding-top:28px;
+  margin: 0px 20px;
 }
 
-#invest-title a{
-    margin: 9px 15px;
+#invest-title{
+    height: 58px;
+    border-bottom:1px solid #e1e1e8;
+}
+#invest-info{
+    margin: 10px;
+    color: #222;
+}
+#invest-left {
+    margin-top: 15px;
+}
+#invest-right{
+    margin-top: 5px;
+}
+.text-gray-dark{
+    color: #666;
+}
+
+#invest-info p em{
+    font-style: normal;
+    font-size: 36px;
+}
+
+#invest-row-1 p{
+    margin: 0px;
+}
+
+#invest-row-1{
+    margin-bottom: 20px;
+}
+
+
+#invest-row-2 p span{
+    margin-right: 30px;
+}
+
+#invest-progress{
+    margin-left: 30px;
+    min-width: 300px;
+}
+
+#invest-progress-bar{
+    min-width: 30px;
+}
+
+#calculate-box{
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    min-height: 240px;
+    padding: 19px;
+    color: #222222;
+    margin: 0px 10px;
+}
+
+#calculate-box-right{
+    margin-top: 5px;
+}
+
+#calculate-box-left{
+    margin-top: 5px;
+}
+
+#calculate-box p em{
+    font-size: 28px;
+}
+
+.text-style{
+    margin-bottom: 0px;
+}
+
+.input-addon-img{
+    display: table-cell;
+    padding: 5px 10px;
+    background-color: #2fa4e7;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 25px;
+    text-align: center;
+}
+
+.input-addon-img:first-child {
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#calculate-box-left p{
+    margin-bottom:2px;
+    line-height: 28px;
+}
+
+#calculate-box-right p{
+    margin-bottom:2px;
+    font-size: 20px;
+}
+
+.input-group{
+    width: 100%;
+}
+
+.text-gray-light{
+    color: #e7e7e7;
+}
+
+#loan-info{
+    border: 1px solid #e3e3e3;
+    border-top: 0px;
+    background-color: #ffffff;
+}
+
+#loan-des{
+    margin-bottom: 20px;
+}
+
+.loan-box{
+    padding: 30px 20px;
+}
+
+#loan-info div.loan-box:nth-child(n+2){
+    border-top: 1px solid #e3e3e3;
+}
+
+#loan-info h4{
+    color: #222222;
+}
+
+.loan-num{
+    margin-left: 20px;
+    font-size: 2em;
 }
